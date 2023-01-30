@@ -1,0 +1,10 @@
+muc --file $HISTFILE --count 10 --pretty                    # Bash
+muc --file $HISTFILE --count 10 --pretty --shell="zsh"      # Zsh
+muc --file $HISTFILE --count 10 --pretty --shell="fish"     # Fish
+
+muc --file $HISTFILE\
+        --count 10\
+        --pretty\
+        --bar '*'\
+        --bar-open '('\
+        --bar-close ')'                                     # (******    ) 
